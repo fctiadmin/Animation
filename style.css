@@ -1,0 +1,19 @@
+.box{
+    width:200px;
+    height:200px;
+    background-color:rgba(0,0,0,0.5);
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    animation-name:sadia;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+
+}
+@keyframes sadia {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
